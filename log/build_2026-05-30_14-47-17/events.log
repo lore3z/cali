@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000624] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000658] (-) JobUnselected: {'identifier': 'livox_sdk2'}
+[0.000732] (lidar_camera_calib) JobQueued: {'identifier': 'lidar_camera_calib', 'dependencies': OrderedDict()}
+[0.000773] (lidar_camera_calib) JobStarted: {'identifier': 'lidar_camera_calib'}
+[0.006161] (lidar_camera_calib) JobProgress: {'identifier': 'lidar_camera_calib', 'progress': 'cmake'}
+[0.006887] (lidar_camera_calib) Command: {'cmd': ['/usr/bin/cmake', '/home/lzt/m20pro/src/lidar_camera_calib', '-DCMAKE_INSTALL_PREFIX=/home/lzt/m20pro/install/lidar_camera_calib'], 'cwd': '/home/lzt/m20pro/build/lidar_camera_calib', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzt'), ('GIT_EDITOR', ':'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/lzt'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1557'), ('BUNDLED_DEBUGPY_PATH', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/lzt/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/lzt/m20pro/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lzt'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lzt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('WINDOWPATH', '2'), ('PATH', '/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lzt/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzt:@/tmp/.ICE-unix/1557,unix/lzt:/tmp/.ICE-unix/1557'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b45896ae_a1d7_4ee2_8a0d_d79284d4535b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-81e4a68102cfb70e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lzt/.config/Code/User/workspaceStorage/eae45b1c18afc98ca49ac691eba1185d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5d64db742d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/lzt/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzt/m20pro/build/lidar_camera_calib'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages:/home/lzt/m20pro/install/livox_ros_driver2/lib/python3.13/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.018333] (lidar_camera_calib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099669] (-) TimerEvent: {}
+[0.101623] (lidar_camera_calib) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.122004] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.123458] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.127066] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.133423] (lidar_camera_calib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141284] (lidar_camera_calib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.179098] (lidar_camera_calib) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.199773] (-) TimerEvent: {}
+[0.200039] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.200837] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.276938] (lidar_camera_calib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299867] (-) TimerEvent: {}
+[0.327831] (lidar_camera_calib) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.348117] (lidar_camera_calib) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.399932] (-) TimerEvent: {}
+[0.500191] (-) TimerEvent: {}
+[0.566652] (lidar_camera_calib) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.572995] (lidar_camera_calib) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.600297] (-) TimerEvent: {}
+[0.693378] (lidar_camera_calib) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.698790] (lidar_camera_calib) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.700367] (-) TimerEvent: {}
+[0.703736] (lidar_camera_calib) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.800461] (-) TimerEvent: {}
+[0.804450] (lidar_camera_calib) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.900555] (-) TimerEvent: {}
+[0.917145] (lidar_camera_calib) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.000651] (-) TimerEvent: {}
+[1.034655] (lidar_camera_calib) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.044208] (lidar_camera_calib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.045143] (lidar_camera_calib) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.098238] (lidar_camera_calib) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.098528] (lidar_camera_calib) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):\n'}
+[1.098644] (lidar_camera_calib) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.098726] (lidar_camera_calib) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.098815] (lidar_camera_calib) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.098896] (lidar_camera_calib) StderrLine: {'line': b'\n'}
+[1.098972] (lidar_camera_calib) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.099049] (lidar_camera_calib) StderrLine: {'line': b'\n'}
+[1.099124] (lidar_camera_calib) StderrLine: {'line': b'    /usr\n'}
+[1.099197] (lidar_camera_calib) StderrLine: {'line': b'\n'}
+[1.099271] (lidar_camera_calib) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.099347] (lidar_camera_calib) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.099421] (lidar_camera_calib) StderrLine: {'line': b'\x1b[0m\n'}
+[1.100725] (-) TimerEvent: {}
+[1.114060] (lidar_camera_calib) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[1.115167] (lidar_camera_calib) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[1.115473] (lidar_camera_calib) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[1.115763] (lidar_camera_calib) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[1.169640] (lidar_camera_calib) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200847] (-) TimerEvent: {}
+[1.227408] (lidar_camera_calib) StdoutLine: {'line': b'-- Generating done\n'}
+[1.234143] (lidar_camera_calib) StdoutLine: {'line': b'-- Build files have been written to: /home/lzt/m20pro/build/lidar_camera_calib\n'}
+[1.245459] (lidar_camera_calib) CommandEnded: {'returncode': 0}
+[1.246014] (lidar_camera_calib) JobProgress: {'identifier': 'lidar_camera_calib', 'progress': 'build'}
+[1.246915] (lidar_camera_calib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzt/m20pro/build/lidar_camera_calib', '--', '-j20', '-l20'], 'cwd': '/home/lzt/m20pro/build/lidar_camera_calib', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzt'), ('GIT_EDITOR', ':'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/lzt'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1557'), ('BUNDLED_DEBUGPY_PATH', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/lzt/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/lzt/m20pro/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lzt'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lzt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('WINDOWPATH', '2'), ('PATH', '/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lzt/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzt:@/tmp/.ICE-unix/1557,unix/lzt:/tmp/.ICE-unix/1557'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b45896ae_a1d7_4ee2_8a0d_d79284d4535b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-81e4a68102cfb70e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lzt/.config/Code/User/workspaceStorage/eae45b1c18afc98ca49ac691eba1185d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5d64db742d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/lzt/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzt/m20pro/build/lidar_camera_calib'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages:/home/lzt/m20pro/install/livox_ros_driver2/lib/python3.13/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[1.295054] (lidar_camera_calib) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target lidar_camera_calib\x1b[0m\n'}
+[1.300966] (-) TimerEvent: {}
+[1.321437] (lidar_camera_calib) StdoutLine: {'line': b'[ 25%] Built target lidar_camera_calib_autogen\n'}
+[1.339199] (lidar_camera_calib) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_camera_calib.dir/lidar_camera_calib_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.340255] (lidar_camera_calib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_camera_calib.dir/src/lidar_camera_calib.cpp.o\x1b[0m\n'}
+[1.401048] (-) TimerEvent: {}
+[1.501292] (-) TimerEvent: {}
+[1.601500] (-) TimerEvent: {}
+[1.701741] (-) TimerEvent: {}
+[1.802075] (-) TimerEvent: {}
+[1.902338] (-) TimerEvent: {}
+[2.002677] (-) TimerEvent: {}
+[2.102922] (-) TimerEvent: {}
+[2.203156] (-) TimerEvent: {}
+[2.303419] (-) TimerEvent: {}
+[2.403786] (-) TimerEvent: {}
+[2.504132] (-) TimerEvent: {}
+[2.604369] (-) TimerEvent: {}
+[2.704644] (-) TimerEvent: {}
+[2.804923] (-) TimerEvent: {}
+[2.905261] (-) TimerEvent: {}
+[3.005521] (-) TimerEvent: {}
+[3.105863] (-) TimerEvent: {}
+[3.206225] (-) TimerEvent: {}
+[3.306502] (-) TimerEvent: {}
+[3.406764] (-) TimerEvent: {}
+[3.507096] (-) TimerEvent: {}
+[3.607360] (-) TimerEvent: {}
+[3.707635] (-) TimerEvent: {}
+[3.807910] (-) TimerEvent: {}
+[3.908242] (-) TimerEvent: {}
+[4.008599] (-) TimerEvent: {}
+[4.108839] (-) TimerEvent: {}
+[4.209070] (-) TimerEvent: {}
+[4.309293] (-) TimerEvent: {}
+[4.409522] (-) TimerEvent: {}
+[4.509895] (-) TimerEvent: {}
+[4.610128] (-) TimerEvent: {}
+[4.710347] (-) TimerEvent: {}
+[4.810610] (-) TimerEvent: {}
+[4.910862] (-) TimerEvent: {}
+[5.011112] (-) TimerEvent: {}
+[5.111392] (-) TimerEvent: {}
+[5.211718] (-) TimerEvent: {}
+[5.311972] (-) TimerEvent: {}
+[5.412312] (-) TimerEvent: {}
+[5.512607] (-) TimerEvent: {}
+[5.612957] (-) TimerEvent: {}
+[5.713342] (-) TimerEvent: {}
+[5.813685] (-) TimerEvent: {}
+[5.913925] (-) TimerEvent: {}
+[6.014271] (-) TimerEvent: {}
+[6.114558] (-) TimerEvent: {}
+[6.214800] (-) TimerEvent: {}
+[6.315160] (-) TimerEvent: {}
+[6.415414] (-) TimerEvent: {}
+[6.515690] (-) TimerEvent: {}
+[6.615938] (-) TimerEvent: {}
+[6.716172] (-) TimerEvent: {}
+[6.816410] (-) TimerEvent: {}
+[6.916672] (-) TimerEvent: {}
+[7.016917] (-) TimerEvent: {}
+[7.117178] (-) TimerEvent: {}
+[7.217409] (-) TimerEvent: {}
+[7.317638] (-) TimerEvent: {}
+[7.417873] (-) TimerEvent: {}
+[7.518103] (-) TimerEvent: {}
+[7.618349] (-) TimerEvent: {}
+[7.718670] (-) TimerEvent: {}
+[7.818933] (-) TimerEvent: {}
+[7.919197] (-) TimerEvent: {}
+[8.019462] (-) TimerEvent: {}
+[8.119699] (-) TimerEvent: {}
+[8.219957] (-) TimerEvent: {}
+[8.320194] (-) TimerEvent: {}
+[8.420464] (-) TimerEvent: {}
+[8.520810] (-) TimerEvent: {}
+[8.621157] (-) TimerEvent: {}
+[8.721512] (-) TimerEvent: {}
+[8.821738] (-) TimerEvent: {}
+[8.922015] (-) TimerEvent: {}
+[9.022277] (-) TimerEvent: {}
+[9.122544] (-) TimerEvent: {}
+[9.222775] (-) TimerEvent: {}
+[9.323000] (-) TimerEvent: {}
+[9.423260] (-) TimerEvent: {}
+[9.523618] (-) TimerEvent: {}
+[9.623818] (-) TimerEvent: {}
+[9.724156] (-) TimerEvent: {}
+[9.824525] (-) TimerEvent: {}
+[9.924897] (-) TimerEvent: {}
+[10.025188] (-) TimerEvent: {}
+[10.125412] (-) TimerEvent: {}
+[10.225639] (-) TimerEvent: {}
+[10.325875] (-) TimerEvent: {}
+[10.426125] (-) TimerEvent: {}
+[10.526353] (-) TimerEvent: {}
+[10.626580] (-) TimerEvent: {}
+[10.726857] (-) TimerEvent: {}
+[10.827089] (-) TimerEvent: {}
+[10.927350] (-) TimerEvent: {}
+[11.027600] (-) TimerEvent: {}
+[11.127818] (-) TimerEvent: {}
+[11.228045] (-) TimerEvent: {}
+[11.328294] (-) TimerEvent: {}
+[11.428535] (-) TimerEvent: {}
+[11.528822] (-) TimerEvent: {}
+[11.629086] (-) TimerEvent: {}
+[11.729335] (-) TimerEvent: {}
+[11.829598] (-) TimerEvent: {}
+[11.929817] (-) TimerEvent: {}
+[12.030081] (-) TimerEvent: {}
+[12.130320] (-) TimerEvent: {}
+[12.230586] (-) TimerEvent: {}
+[12.330854] (-) TimerEvent: {}
+[12.431104] (-) TimerEvent: {}
+[12.531338] (-) TimerEvent: {}
+[12.631575] (-) TimerEvent: {}
+[12.731820] (-) TimerEvent: {}
+[12.832060] (-) TimerEvent: {}
+[12.932314] (-) TimerEvent: {}
+[13.032595] (-) TimerEvent: {}
+[13.132833] (-) TimerEvent: {}
+[13.233205] (-) TimerEvent: {}
+[13.333444] (-) TimerEvent: {}
+[13.433677] (-) TimerEvent: {}
+[13.533962] (-) TimerEvent: {}
+[13.634189] (-) TimerEvent: {}
+[13.734422] (-) TimerEvent: {}
+[13.834658] (-) TimerEvent: {}
+[13.934921] (-) TimerEvent: {}
+[14.035183] (-) TimerEvent: {}
+[14.135451] (-) TimerEvent: {}
+[14.235684] (-) TimerEvent: {}
+[14.335918] (-) TimerEvent: {}
+[14.436201] (-) TimerEvent: {}
+[14.536453] (-) TimerEvent: {}
+[14.636817] (-) TimerEvent: {}
+[14.737167] (-) TimerEvent: {}
+[14.837455] (-) TimerEvent: {}
+[14.937692] (-) TimerEvent: {}
+[15.037925] (-) TimerEvent: {}
+[15.138151] (-) TimerEvent: {}
+[15.238413] (-) TimerEvent: {}
+[15.338653] (-) TimerEvent: {}
+[15.438930] (-) TimerEvent: {}
+[15.539198] (-) TimerEvent: {}
+[15.639442] (-) TimerEvent: {}
+[15.739673] (-) TimerEvent: {}
+[15.839932] (-) TimerEvent: {}
+[15.940161] (-) TimerEvent: {}
+[16.040388] (-) TimerEvent: {}
+[16.140616] (-) TimerEvent: {}
+[16.240817] (-) TimerEvent: {}
+[16.341040] (-) TimerEvent: {}
+[16.441300] (-) TimerEvent: {}
+[16.541536] (-) TimerEvent: {}
+[16.641759] (-) TimerEvent: {}
+[16.741987] (-) TimerEvent: {}
+[16.842244] (-) TimerEvent: {}
+[16.942467] (-) TimerEvent: {}
+[17.042734] (-) TimerEvent: {}
+[17.142992] (-) TimerEvent: {}
+[17.243256] (-) TimerEvent: {}
+[17.343477] (-) TimerEvent: {}
+[17.443700] (-) TimerEvent: {}
+[17.543924] (-) TimerEvent: {}
+[17.644228] (-) TimerEvent: {}
+[17.744457] (-) TimerEvent: {}
+[17.844714] (-) TimerEvent: {}
+[17.944996] (-) TimerEvent: {}
+[18.045329] (-) TimerEvent: {}
+[18.145679] (-) TimerEvent: {}
+[18.245910] (-) TimerEvent: {}
+[18.346130] (-) TimerEvent: {}
+[18.446391] (-) TimerEvent: {}
+[18.546615] (-) TimerEvent: {}
+[18.646873] (-) TimerEvent: {}
+[18.747097] (-) TimerEvent: {}
+[18.847364] (-) TimerEvent: {}
+[18.947597] (-) TimerEvent: {}
+[19.047840] (-) TimerEvent: {}
+[19.148063] (-) TimerEvent: {}
+[19.248402] (-) TimerEvent: {}
+[19.348740] (-) TimerEvent: {}
+[19.448991] (-) TimerEvent: {}
+[19.549354] (-) TimerEvent: {}
+[19.649633] (-) TimerEvent: {}
+[19.749952] (-) TimerEvent: {}
+[19.850214] (-) TimerEvent: {}
+[19.950471] (-) TimerEvent: {}
+[20.050746] (-) TimerEvent: {}
+[20.150979] (-) TimerEvent: {}
+[20.251227] (-) TimerEvent: {}
+[20.351496] (-) TimerEvent: {}
+[20.451761] (-) TimerEvent: {}
+[20.518241] (lidar_camera_calib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_camera_calib\x1b[0m\n'}
+[20.551819] (-) TimerEvent: {}
+[20.652051] (-) TimerEvent: {}
+[20.752404] (-) TimerEvent: {}
+[20.852671] (-) TimerEvent: {}
+[20.952909] (-) TimerEvent: {}
+[21.053147] (-) TimerEvent: {}
+[21.153421] (-) TimerEvent: {}
+[21.253671] (-) TimerEvent: {}
+[21.353935] (-) TimerEvent: {}
+[21.454175] (-) TimerEvent: {}
+[21.554439] (-) TimerEvent: {}
+[21.654719] (-) TimerEvent: {}
+[21.754971] (-) TimerEvent: {}
+[21.855268] (-) TimerEvent: {}
+[21.955615] (-) TimerEvent: {}
+[22.055824] (-) TimerEvent: {}
+[22.156061] (-) TimerEvent: {}
+[22.256357] (-) TimerEvent: {}
+[22.356707] (-) TimerEvent: {}
+[22.457141] (-) TimerEvent: {}
+[22.557486] (-) TimerEvent: {}
+[22.585552] (lidar_camera_calib) StdoutLine: {'line': b'[100%] Built target lidar_camera_calib\n'}
+[22.594976] (lidar_camera_calib) CommandEnded: {'returncode': 0}
+[22.595656] (lidar_camera_calib) JobProgress: {'identifier': 'lidar_camera_calib', 'progress': 'install'}
+[22.603485] (lidar_camera_calib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lzt/m20pro/build/lidar_camera_calib'], 'cwd': '/home/lzt/m20pro/build/lidar_camera_calib', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzt'), ('GIT_EDITOR', ':'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/lzt'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1557'), ('BUNDLED_DEBUGPY_PATH', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/lzt/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/lzt/m20pro/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lzt'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lzt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('WINDOWPATH', '2'), ('PATH', '/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lzt/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lzt/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzt:@/tmp/.ICE-unix/1557,unix/lzt:/tmp/.ICE-unix/1557'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b45896ae_a1d7_4ee2_8a0d_d79284d4535b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzt/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-81e4a68102cfb70e.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/lzt/.config/Code/User/workspaceStorage/eae45b1c18afc98ca49ac691eba1185d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5d64db742d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/lzt/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzt/m20pro/build/lidar_camera_calib'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/lzt/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ea7fbb5583461b96c2ff7f26a1832a1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages:/home/lzt/m20pro/install/livox_ros_driver2/lib/python3.13/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzt/m20pro/install/fast_lio:/home/lzt/m20pro/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[22.609405] (lidar_camera_calib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.609522] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/include\n'}
+[22.609599] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/include/lidar_camera_calib.hpp\n'}
+[22.609691] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/include/common.h\n'}
+[22.609746] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/launch\n'}
+[22.609844] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/launch/calib.launch.py\n'}
+[22.609879] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config\n'}
+[22.609914] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/calib.yaml\n'}
+[22.609949] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/config_indoor.yaml\n'}
+[22.610020] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/config_outdoor.yaml\n'}
+[22.610054] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/bin/lidar_camera_calib\n'}
+[22.614070] (lidar_camera_calib) StdoutLine: {'line': b'-- Set runtime path of "/home/lzt/m20pro/install/lidar_camera_calib/bin/lidar_camera_calib" to ""\n'}
+[22.614176] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/lib/lidar_camera_calib/lidar_camera_calib\n'}
+[22.617803] (lidar_camera_calib) StdoutLine: {'line': b'-- Set runtime path of "/home/lzt/m20pro/install/lidar_camera_calib/lib/lidar_camera_calib/lidar_camera_calib" to ""\n'}
+[22.617954] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/package_run_dependencies/lidar_camera_calib\n'}
+[22.618005] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/parent_prefix_path/lidar_camera_calib\n'}
+[22.618049] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/ament_prefix_path.sh\n'}
+[22.618081] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/ament_prefix_path.dsv\n'}
+[22.618112] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/path.sh\n'}
+[22.618143] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/path.dsv\n'}
+[22.618173] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.bash\n'}
+[22.618223] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.sh\n'}
+[22.618286] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.zsh\n'}
+[22.618319] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.dsv\n'}
+[22.618348] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/package.dsv\n'}
+[22.618378] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/packages/lidar_camera_calib\n'}
+[22.618424] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/cmake/lidar_camera_calibConfig.cmake\n'}
+[22.618476] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/cmake/lidar_camera_calibConfig-version.cmake\n'}
+[22.618504] (lidar_camera_calib) StdoutLine: {'line': b'-- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/package.xml\n'}
+[22.619796] (lidar_camera_calib) CommandEnded: {'returncode': 0}
+[22.633682] (lidar_camera_calib) JobEnded: {'identifier': 'lidar_camera_calib', 'rc': 0}
+[22.634146] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+/home/lzt/m20pro/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+/home/lzt/m20pro/install/livox_sdk2/include/livox_lidar_def.h
+/home/lzt/m20pro/install/livox_sdk2/include/livox_lidar_api.h
+/home/lzt/m20pro/install/livox_sdk2/include/livox_lidar_cfg.h
+/home/lzt/m20pro/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so

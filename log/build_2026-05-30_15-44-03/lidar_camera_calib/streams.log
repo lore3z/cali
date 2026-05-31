@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzt/m20pro/build/lidar_camera_calib -- -j20 -l20
+[0.066s] [ 25%] Automatic MOC and UIC for target lidar_camera_calib
+[0.081s] [ 25%] Built target lidar_camera_calib_autogen
+[0.097s] Consolidate compiler generated dependencies of target lidar_camera_calib
+[0.115s] [100%] Built target lidar_camera_calib
+[0.125s] Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzt/m20pro/build/lidar_camera_calib -- -j20 -l20
+[0.134s] Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzt/m20pro/build/lidar_camera_calib
+[0.139s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/include
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/include/lidar_camera_calib.hpp
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/include/common.h
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/launch
+[0.140s] -- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/launch/calib.launch.py
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/calib.yaml
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/config_indoor.yaml
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/config_outdoor.yaml
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/bin/lidar_camera_calib
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/lib/lidar_camera_calib/lidar_camera_calib
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/package_run_dependencies/lidar_camera_calib
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/parent_prefix_path/lidar_camera_calib
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/path.sh
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/environment/path.dsv
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.bash
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.sh
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.zsh
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/local_setup.dsv
+[0.140s] -- Installing: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/package.dsv
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/ament_index/resource_index/packages/lidar_camera_calib
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/cmake/lidar_camera_calibConfig.cmake
+[0.140s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/cmake/lidar_camera_calibConfig-version.cmake
+[0.141s] -- Up-to-date: /home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/package.xml
+[0.142s] Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzt/m20pro/build/lidar_camera_calib

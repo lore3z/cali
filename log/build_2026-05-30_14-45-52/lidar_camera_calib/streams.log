@@ -1,0 +1,117 @@
+[0.008s] Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzt/m20pro/src/lidar_camera_calib -DCMAKE_INSTALL_PREFIX=/home/lzt/m20pro/install/lidar_camera_calib
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.469s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.473s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.581s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.679s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.719s] -- Looking for pthread.h
+[0.779s] -- Looking for pthread.h - found
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.837s] -- Found Threads: TRUE  
+[0.893s] -- Checking for module 'eigen3'
+[0.904s] --   Found eigen3, version 3.4.0
+[0.935s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.935s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.962s] -- Checking for module 'flann'
+[0.973s] --   Found flann, version 1.9.1
+[1.010s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.010s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.759s] -- Checking for module 'libusb-1.0'
+[1.772s] --   Found libusb-1.0, version 1.0.25
+[1.805s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.806s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.853s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.968s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.974s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.980s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.095s] -- Found Qhull version 8.0.2
+[2.215s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.320s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.321s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.321s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.322s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.322s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.323s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.323s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.323s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.324s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.324s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.325s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.326s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.326s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.327s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.327s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.328s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.329s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.329s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.330s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.330s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.331s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.331s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.331s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.332s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.332s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.341s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.370s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.370s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.371s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.441s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.442s] [33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):
+[2.442s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.442s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.442s]   command to set the policy and suppress this warning.
+[2.442s] 
+[2.442s]   CMake variable PCL_ROOT is set to:
+[2.442s] 
+[2.442s]     /usr
+[2.442s] 
+[2.442s]   For compatibility, CMake is ignoring the variable.
+[2.442s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.442s] [0m
+[2.452s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.458s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.463s] -- Found required Ceres dependency: glog
+[2.463s] -- Found required Ceres dependency: gflags
+[2.464s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.469s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[2.469s]   By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project
+[2.469s]   has asked CMake to find a package configuration file provided by
+[2.469s]   "backward_ros", but CMake did not find one.
+[2.470s] 
+[2.470s]   Could not find a package configuration file provided by "backward_ros" with
+[2.470s]   any of the following names:
+[2.470s] 
+[2.470s]     backward_rosConfig.cmake
+[2.470s]     backward_ros-config.cmake
+[2.470s] 
+[2.470s]   Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set
+[2.470s]   "backward_ros_DIR" to a directory containing one of the above files.  If
+[2.470s]   "backward_ros" provides a separate development package or SDK, be sure it
+[2.470s]   has been installed.
+[2.470s] 
+[2.470s] [0m
+[2.470s] -- Configuring incomplete, errors occurred!
+[2.470s] See also "/home/lzt/m20pro/build/lidar_camera_calib/CMakeFiles/CMakeOutput.log".
+[2.482s] Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzt/m20pro/src/lidar_camera_calib -DCMAKE_INSTALL_PREFIX=/home/lzt/m20pro/install/lidar_camera_calib

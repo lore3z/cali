@@ -1,0 +1,205 @@
+[0.010s] Invoking command in '/home/lzt/m20pro/build/fast_lio': CMAKE_PREFIX_PATH=/home/lzt/m20pro/install/livox_ros_driver2:/home/lzt/m20pro/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lzt/m20pro/build/fast_lio -- -j20 -l20
+[0.053s] [  8%] Built target fast_lio__rosidl_generator_c
+[0.053s] [ 11%] Built target fast_lio__cpp
+[0.065s] [ 11%] Built target ament_cmake_python_copy_fast_lio
+[0.072s] [ 14%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[0.072s] [ 17%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[0.073s] [ 25%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.074s] [ 28%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[0.075s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[0.078s] [ 40%] Built target fast_lio__rosidl_typesupport_c
+[0.203s] running egg_info
+[0.212s] writing fast_lio.egg-info/PKG-INFO
+[0.213s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.213s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.241s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.244s] [ 42%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[0.266s] [ 42%] Built target ament_cmake_python_build_fast_lio_egg
+[0.274s] [ 45%] Built target fast_lio__rosidl_typesupport_cpp
+[0.281s] [ 48%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[0.305s] [ 51%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[0.306s] [ 54%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.306s] [ 57%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[0.310s] [ 60%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.335s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.347s] [ 65%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[0.364s] [ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.384s] [ 71%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.402s] [ 71%] Built target fast_lio
+[0.422s] [ 74%] Built target fast_lio__py
+[0.443s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[0.545s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[0.581s] [ 80%] Built target fast_lio__rosidl_generator_py
+[0.603s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.604s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.605s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[0.685s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so[0m
+[0.697s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so[0m
+[0.720s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so[0m
+[0.720s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.729s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.754s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[4.171s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[4.171s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[4.172s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[4.172s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[4.172s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[4.172s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[4.172s]                  from [01m[K/home/lzt/m20pro/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[4.172s]                  from [01m[K/home/lzt/m20pro/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[4.172s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.172s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.172s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[42.653s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[43.465s] [100%] Built target fastlio_mapping
+[43.475s] Invoked command in '/home/lzt/m20pro/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lzt/m20pro/install/livox_ros_driver2:/home/lzt/m20pro/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lzt/m20pro/build/fast_lio -- -j20 -l20
+[43.482s] Invoking command in '/home/lzt/m20pro/build/fast_lio': CMAKE_PREFIX_PATH=/home/lzt/m20pro/install/livox_ros_driver2:/home/lzt/m20pro/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lzt/m20pro/build/fast_lio
+[43.487s] -- Install configuration: "Release"
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/library_path.sh
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[43.488s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[43.488s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[43.488s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[43.489s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[43.489s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[43.489s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[43.489s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[43.489s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[43.489s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[43.489s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio-0.0.0-py3.13.egg-info
+[43.489s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio-0.0.0-py3.13.egg-info/top_level.txt
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio-0.0.0-py3.13.egg-info/PKG-INFO
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio-0.0.0-py3.13.egg-info/SOURCES.txt
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio-0.0.0-py3.13.egg-info/dependency_links.txt
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/msg
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/msg/_pose6_d.py
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/msg/_pose6_d_s.c
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/msg/__init__.py
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[43.490s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/__init__.py
+[43.490s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so
+[43.513s] Listing '/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio'...
+[43.513s] Listing '/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/msg'...
+[43.516s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so
+[43.516s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so" to ""
+[43.516s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so
+[43.517s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so" to ""
+[43.517s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so
+[43.517s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/python3.13/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so" to ""
+[43.517s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[43.517s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[43.517s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[43.517s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[43.517s] -- Installing: /home/lzt/m20pro/install/fast_lio/lib/fast_lio/fastlio_mapping
+[43.519s] -- Set runtime path of "/home/lzt/m20pro/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config/horizon.yaml
+[43.519s] -- Installing: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config/mid360.yaml
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config/avia.yaml
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/launch
+[43.519s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[43.520s] -- Installing: /home/lzt/m20pro/install/fast_lio/share/fast_lio/launch/octomap.launch.py
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/rviz
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/path.sh
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/environment/path.dsv
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/local_setup.bash
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/local_setup.sh
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/local_setup.zsh
+[43.520s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/local_setup.dsv
+[43.520s] -- Installing: /home/lzt/m20pro/install/fast_lio/share/fast_lio/package.dsv
+[43.521s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[43.521s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[43.521s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[43.521s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[43.522s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[43.523s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[43.524s] -- Up-to-date: /home/lzt/m20pro/install/fast_lio/share/fast_lio/package.xml
+[43.524s] Invoked command in '/home/lzt/m20pro/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lzt/m20pro/install/livox_ros_driver2:/home/lzt/m20pro/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lzt/m20pro/install/livox_ros_driver2/lib:/home/lzt/m20pro/install/livox_sdk2/lib:/home/lzt/m20pro/install/fast_lio/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/home/lzt/miniconda3/envs/rl-g1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lzt/m20pro/build/fast_lio

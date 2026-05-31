@@ -1,0 +1,14 @@
+source;share/lidar_camera_calib/hook/cmake_prefix_path.ps1
+source;share/lidar_camera_calib/hook/cmake_prefix_path.dsv
+source;share/lidar_camera_calib/hook/cmake_prefix_path.sh
+source;share/lidar_camera_calib/hook/path.ps1
+source;share/lidar_camera_calib/hook/path.dsv
+source;share/lidar_camera_calib/hook/path.sh
+source;share/lidar_camera_calib/hook/pythonscriptspath.ps1
+source;share/lidar_camera_calib/hook/pythonscriptspath.dsv
+source;share/lidar_camera_calib/hook/pythonscriptspath.sh
+source;share/lidar_camera_calib/local_setup.bash
+source;share/lidar_camera_calib/local_setup.dsv
+source;share/lidar_camera_calib/local_setup.ps1
+source;share/lidar_camera_calib/local_setup.sh
+source;share/lidar_camera_calib/local_setup.zsh

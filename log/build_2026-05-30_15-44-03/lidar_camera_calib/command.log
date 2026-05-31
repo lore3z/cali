@@ -1,0 +1,4 @@
+Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzt/m20pro/build/lidar_camera_calib -- -j20 -l20
+Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzt/m20pro/build/lidar_camera_calib -- -j20 -l20
+Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzt/m20pro/build/lidar_camera_calib
+Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzt/m20pro/build/lidar_camera_calib

@@ -1,0 +1,2 @@
+Invoking command in '/home/lzt/m20pro/build/lidar_camera_calib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzt/m20pro/src/lidar_camera_calib -DCMAKE_INSTALL_PREFIX=/home/lzt/m20pro/install/lidar_camera_calib
+Invoked command in '/home/lzt/m20pro/build/lidar_camera_calib' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzt/m20pro/src/lidar_camera_calib -DCMAKE_INSTALL_PREFIX=/home/lzt/m20pro/install/lidar_camera_calib

@@ -1,0 +1,11 @@
+lidar_camera_calib:
+  ros__parameters:
+    image_file: "/home/lzt/m20pro/calib_data/live_once/image.png"
+    pcd_file: "/home/lzt/m20pro/calib_data/live_once/map.pcd"
+    result_file: "/home/lzt/m20pro/calib_data/live_once/extrinsic.txt"
+    camera_matrix: [915.6424560546875, 0.0, 636.0186157226562, 0.0, 915.1904907226562, 370.6102600097656, 0.0, 0.0, 1.0]
+    dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+    calib_config_file: "/home/lzt/m20pro/install/lidar_camera_calib/share/lidar_camera_calib/config/config_indoor.yaml"
+    use_rough_calib: true
+    save_img: true
+    folder: "/home/lzt/m20pro/calib_data/live_once"

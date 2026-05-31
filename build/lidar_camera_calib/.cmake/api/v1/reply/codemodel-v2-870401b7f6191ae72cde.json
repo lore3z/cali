@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-080dd53c0443e50de4c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lidar_camera_calib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_camera_calib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_camera_calib-10b8adde057db721f556.json",
+					"name" : "lidar_camera_calib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_camera_calib_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_camera_calib_autogen-13c7db4428ac82267490.json",
+					"name" : "lidar_camera_calib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_camera_calib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_camera_calib_uninstall-01290b9f9f5c87434d2d.json",
+					"name" : "lidar_camera_calib_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-beb342310e3a8a8c3c71.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzt/m20pro/build/lidar_camera_calib",
+		"source" : "/home/lzt/m20pro/src/lidar_camera_calib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
